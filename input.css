@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .tag {
+    @apply border border-paleBlue text-sm text-paleBlue py-[0.125rem] px-3 rounded-xl;
+  }
+}
